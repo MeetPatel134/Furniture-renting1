@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    max-width: 1200vh;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.left-section {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.right-section {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto; 
+    max-height: calc(100vh - 40px); 
+    box-sizing: border-box; 
+}
+
+.gift-card-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.price {
+    font-size: 18px;
+    color: #333;
+}
+
+.tax, .rating, .label {
+    font-size: 14px;
+    color: #666;
+}
+
+.rating span {
+    font-size: 18px;
+    color: #f39c12;
+}
+
+.denominations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.denominations button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.denominations button:hover {
+    background-color: #f1f1f1;
+}
+.timeline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.timeline-line {
+    flex: 1;
+    height: 2px;
+    background-color: #ccc;
+    margin: 0 10px;
+}
+
+.timeline-step {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+ .timeline-step .icon {
+    font-size: 24px;
+}
+
+    .timeline-step .date {
+    font-size: 14px;
+    margin: 5px 0;
+} 
+
+.timeline-step .status {
+    font-weight: bold;
+}
+
+
+
+.size-chart a, .wishlist a {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.add-to-cart, .buy-it-now {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    background-color: #fff;
+    border: 1px solid #333;
+    color: #333;
+}
+
+.add-to-cart:hover {
+    background-color: #f1f1f1;
+}
+
+.buy-it-now {
+    background-color: #b89c5c;
+    color: #fff;
+}
+
+.buy-it-now:hover {
+    background-color: #a3843b;
+}
+
+.custom-notice{
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.accordion {
+    margin-bottom: 20px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-button {
+    background: none;
+    border: none;
+    text-align: left;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s;
+}
+
+.accordion-button:hover {
+    background-color: #f1f1f1;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+    font-size: 14px;
+    background-color: #fafafa;
+}
+
+.social-sharing {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    display: inline-block;
+}
+
+/* Social sharing icons */
+.social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+.social-icon img {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+}
+
+/* Hover effect */
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-section, .right-section {
+        flex: 1 1 100%; 
+        order: initial; 
+    }
+
+    .gift-card-image {
+        border-radius: 8px; 
+    }
+}
+
+
