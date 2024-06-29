@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/*****COMMON CSS SECTION*****/
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+.navbar {
+    height: 80px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: 80px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 19px;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-left: 32px;
+    margin-top: 12px;
+    color: #333;
+}
+
+.nav-link {
+    margin-left: 10px !important;
+    color: #333;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: left;
+}
+
+.fixed-top {
+    background: white;
+}
+
+nav .social-media a {
+    color: black;
+    font-size: 25px;
+    top: 15px;
+    position: relative;
+    margin-right: 30px;
+    float: right;
+}
+
+.navbar-icons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icons .nav-icon {
+    margin-right: 15px;
+}
+
+.navbar-icons .nav-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width:768px) {
+    .navbar-collapse {
+        position: absolute;
+        width: 200%;
+        left: 0px;
+        top: 65px;
+        padding-left: 20px;
+        padding-bottom: 40px;
+    }
+
+    .navbar-toggler {
+        float: right;
+        position: relative;
+        top: 15px;
+        font-size: 20px;
+    }
+
+    nav .social-media a {
+        color: black;
+        font-size: 25px;
+        top: 12px;
+        position: relative;
+        margin-right: 15px;
+    }
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: lightgray;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+    white-space: nowrap;
+}
+
+nav ul li ul li a {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+nav ul li ul li a:hover {
+    background-color: lightgray;
+    color: black;
+}
+.navbar-nav{
+    margin-left: 90px;
+}
+
+
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+    width: 100vw;
+
+
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 100px;
+
+}
+
+
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .Social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+
+}
+
+.footer-col .Social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .footer-col {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+}
