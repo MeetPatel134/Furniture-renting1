@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPACE X INTERIORS</title>
+    <meta name="description" content="Space X Interiors">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.testimonial{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background: #e9e9e7;
+}
+::selection{
+  background: rgba(23,162,184,0.3);
+}
+.wrapper{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .box{
+  background: #DDD0C8;
+  width: calc(33% - 10px);
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
+.wrapper .box i.quote{
+  font-size: 20px;
+  color: #17a2b8;
+}
+.wrapper .box .content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.box .info .name{
+  font-weight: 600;
+  font-size: 17px;
+}
+.box .info .job{
+  font-size: 16px;
+  font-weight: 500;
+  color: #17a2b8;
+}
+.box .info .stars{
+  margin-top: 2px;
+}
+.box .info .stars i{
+  color: #17a2b8;
+}
+.box .content .image{
+  height: 75px;
+  width: 75px;
+  padding: 3px;
+  background: #17a2b8;
+  border-radius: 50%;
+}
+.content .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.box:hover .content .image img{
+  border-color: #fff;
+}
+
+@media (max-width: 1045px) {
+  .wrapper .box{
+    width: calc(50% - 10px);
+    margin: 10px 0;
+  }
+}
+@media (max-width: 702px) {
+  .wrapper .box{
+    width: 100%;
+  }
+}
+
+#imge1:hover {
+  content: url('./image2/img21.webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+
+}
+#imge2:hover {
+  content: url('./image2/img31.webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#imge3:hover {
+  content: url('./image2/img42.webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#imge4:hover {
+  content: url('./image2/i41.webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#imge5:hover {
+  content: url('./image2/i51.webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#imge6:hover {
+  content: url("./image2/i61.webp");
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#imge7:hover {
+  content: url('./image2/i71.webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#imge8:hover {
+  content: url('./image2/i81.webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#imge9:hover {
+  content: url('./image2/i91.webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#imge10:hover {
+  content: url('./image2/i101.webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+#image1:hover {
+  content: url('./image1/img8.jpg');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#image2:hover {
+  content: url('./image/image6.jpg');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#image3:hover {
+  content: url('./image/img 12.jpg');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#imge15:hover {
+  content: url('./image/img15(1).jpg');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#image5:hover {
+  content: url('./image/image8.jpg');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#image6:hover {
+  content: url("./image/img1(1).jpg");
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#image7:hover {
+  content: url('./image1/img7.jpg');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#image8:hover {
+  content: url('./image/image13.jpg');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#image9:hover {
+  content: url('./image/img 8.jpg');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#image10:hover {
+  content: url('./image1/img10.jpg');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+#img1:hover {
+  content: url('./image1/img1(1).webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#img2:hover {
+  content: url('./image1/img2(1).webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#img3:hover {
+  content: url('./image1/img3(1).webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#img4:hover {
+  content: url('./image1/img4(1).webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#img5:hover {
+  content: url('./image1/img5(1).webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#img6:hover {
+  content: url("./image1/img6(1).webp");
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#img7:hover {
+  content: url('./image1/img17(1).webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#img8:hover {
+  content: url('./image1/img18(1).webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#img9:hover {
+  content: url('./image1/img19(1).webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#img10:hover {
+  content: url('./image1/img20(1).webp');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+#im1:hover {
+  content: url('./image/img 2.jpg');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#im2:hover {
+  content: url('./image/img 4.jpg');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#im3:hover {
+  content: url('./image/img 7.jpg');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#im4:hover {
+  content: url('./image/img 10.jpg');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+
+#im5:hover {
+  content: url('./image/img 11.jpg');
+  transform: scale(1.05);
+  z-index: 1;
+  height: 290px;
+}
+        .navbar-brand img {
+    width: 120px;
+    height: 120px;
+    margin-left: 25px;
+}
+        .content {
+    & .description {
+        line-height: 1.7;
+        margin: 1rem 0 1.5rem;
+        font-size: 0.8rem;
+        margin-top: -50px;
+    }
+}
+        .feature img{
+            margin-left: -10px;
+        }
+        .feature h3{
+            margin-left: -10px;
+        }
+        body{
+            background-color: #e9e9e7;
+        }
+        .footer p {
+            background: #24262b;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+
+        }
+
+        h1,
+        .h2,
+        .h3,
+        .h4,
+        .h5,
+        .h6,
+        h1,
+        h2,
+        h4,
+        h5,
+        h6 {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+            width: auto;
+            height: 100px;
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+
+        .container {
+            max-width: 1170px;
+            margin: auto;
+        }
+
+        .row1 {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .footer {
+            background-color: #24262b;
+            padding: 70px 0;
+            width: 100vw;
+
+
+        }
+
+        .footer-col {
+            width: 25%;
+            padding: 10px 50px;
+
+        }
+
+
+
+        .footer-col h3 {
+            font-size: 18px;
+            color: #ffffff;
+            text-transform: capitalize;
+            margin-bottom: 35px;
+            font-weight: 500;
+            position: relative;
+        }
+
+        .footer-col h3::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color: #e91e63;
+            height: 2px;
+            box-sizing: border-box;
+            width: 50px;
+        }
+
+        .footer-col ul li:not(:last-child) {
+            margin-bottom: 10px;
+        }
+
+        .footer-col ul li a {
+            font-size: 16px;
+            text-transform: capitalize;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            color: #bbbbbb;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .footer-col ul li a:hover {
+            color: #ffffff;
+            padding-left: 8px;
+        }
+
+        .footer-col .Social-links a {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            color: #ffffff;
+            transition: all 0.5s ease;
+
+        }
+
+        .footer-col .Social-links a:hover {
+            color: #24262b;
+            background-color: #ffffff;
+        }
+
+        @media (max-width: 767px) {
+            .footer-col {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+
+        @media (max-width: 574px) {
+            .footer-col {
+                width: 100%;
+            }
+        }
+
+        @media(max-width: 768px) {
+            .hero {
+                flex-direction: column;
+            }
+
+            .hero article {
+                flex: 1 1 100%;
+            }
+
+            header nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .container {
+            margin-top: 100px;
+        }
+
+        .badge-danger {
+            color: #fff;
+            background-color: #dc3545;
+        }
+
+        .h3,
+        h3 {
+            font-size: 1.75rem;
+            margin-left: 30px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: .25em .4em;
+            margin-left: 5px;
+            font-size: 75%;
+            font-weight: 700;
+            line-height: 1;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: .20rem;
+            transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        
+        <img src="WhatsApp Image 2024-06-15 at 12.45.55 PM-Photoroom.png" alt="logo" width="120px" height="120px" style="margin-left:25px">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHomeFurnishingLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home Furnishing</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownHomeFurnishingLink">
+                        <li><a class="dropdown-item" href="index1.php">Mats and Rugs</a></li>
+                        <li><a class="dropdown-item" href="index2.php">Multipurpose Cabinets</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Shop Art</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="index8.php">Paintings</a></li>
+                        <li><a class="dropdown-item" href="index5.php">Figurines</a></li>
+                        <li><a class="dropdown-item" href="index4.php">Botanicals</a></li>
+                        <li><a class="dropdown-item" href="index.php">Lights</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownGalleryLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Gallery Walls</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownGalleryLink">
+                        <li><a class="dropdown-item" href="index12.php">Wall Gallery</a></li>
+                        <li><a class="dropdown-item" href="index10.php">Wall Arts</a></li>
+                        <li><a class="dropdown-item" href="index7.php">Clocks</a></li>
+                        <li><a class="dropdown-item" href="index6.php">Mirrors</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHomeDecorLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Home Decor</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownHomeDecorLink">
+                        <li><a class="dropdown-item" href="index11.php">Cushion Covers</a></li>
+                        <li><a class="dropdown-item" href="index9.php">Curtains</a></li>
+                        <li><a class="dropdown-item" href="index3.php">Chairs</a></li>
+                        <li><a class="dropdown-item" href="index14.php">Sofa</a></li>
+                        <li><a class="dropdown-item" href="index13.php">Pouffe</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            </ul>
+        </div>
+        <div class="navbar-icons">
+            <a href="contactme/index.php" class="nav-icon"><img src="./image/call img.png" alt="Call"></a>
+            <a href="login.php" class="nav-icon"><img src="./image/contact.png" alt="Contact"></a>
+            <a href="./cart.php" class="nav-icon"><img src="./image/cart.png" alt="Cart">
+                <span id="cart-item" class="badge badge-danger"></span></a>
+
+        </div>
+    </nav>
+    <main>
+        <ul class='slider'>
+
+            <li class='item' style="background-image: url('i1.avif');">
+                <div class='content'>
+                    <h2 class='title'>"MODERN ELEGANCE"</h2>
+                    <p class='description'> A stylish blend of contemporary decor and classic comfort, perfect for
+                        relaxing or entertaining.
+                    </p>
+                    <button>Read More</button>
+                </div>
+            </li>
+            <li class='item' style="background-image: url('i2.jpg')">
+                <div class='content'>
+                    <h2 class='title'>"SLEEK AND SOPHISTICATED"</h2>
+                    <p class='description'> This contemporary interior features clean lines, natural light, and
+                        minimalist elegance, creating a harmonious and
+                        inviting atmosphere. </p>
+                    <button>Read More</button>
+                </div>
+            </li>
+            <li class='item' style="background-image: url('i3.jpg')">
+                <div class='content'>
+                    <h2 class='title'>"OPULENT RETREAT"</h2>
+                    <p class='description'> An expansive living space showcasing exquisite decor, architectural
+                        grandeur, and stunning city views, perfect for the
+                        connoisseur of fine living. </p>
+                    <button>Read More</button>
+                </div>
+            </li>
+            <li class='item' style="background-image: url('i4.jpg')">
+                <div class='content'>
+                    <h2 class='title'>"SLEEK SERENITY"</h2>
+                    <p class='description'> Modern Minimalism in Living Spaces. </p>
+                    <button>Read More</button>
+                </div>
+            </li>
+            <li class='item' style="background-image: url('i5.jpg')">
+                <div class='content'>
+                    <h2 class='title'>"COMPACT ELEGANCE"</h2>
+                    <p class='description'>
+                        Where Style Meets Practicality.
+                    </p>
+                    <button>Read More</button>
+                </div>
+            </li>
+            <li class='item' style="background-image: url('i6.jpg')">
+                <div class='content'>
+                    <h2 class='title'>"CONTEMPORARY CALM"</h2>
+                    <p class='description'>
+                        The Art of Minimalist Living.
+                    </p>
+                    <button>Read More</button>
+                </div>
+            </li>
+
+        </ul>
+        <nav class='nav'>
+            <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
+            <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
+        </nav>
+    </main>
+    <div class="collection">
+        <h2 class="tree">PAINTINGS OF THE MONTH</h2>
+    </div>
+    <div class="gallery">
+        <a href="paintings\the carvan\thecarvan.html" style="text-decoration: none;">
+        <div class="gallery-item" id="imge1">
+            
+            <img src="avif images\img2-removebg-preview.avif"  alt="The Caravan">
+            <p>The Caravan<br><strong>from Rs. 900.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="./image2/img21.webp" alt="The Caravan">
+                <p>The Caravan<br><strong>from Rs. 900.00</strong></p>
+                
+            </div>
+        </div>
+        </a>  
+        <a href="paintings\pink sunrise\pinksunrise.html" style="text-decoration: none;">
+        <div class="gallery-item" id="imge2">
+            <img src="avif images\img3-removebg-preview.avif" alt="Pink Sunrise">
+            <p>Pink Sunrise<br><strong>from Rs. 590.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="./image2/img31.webp" alt="Pink Sunrise">
+                <p>Pink Sunrise<br><strong>from Rs. 590.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="paintings\Forest\aforestinautumn.html" style="text-decoration: none;">
+        <div class="gallery-item" id="imge3">
+            <img src="avif images\img4-removebg-preview.avif" alt="A Forest In Autumn">
+            <p>A Forest In Autumn</Small><br><strong>from Rs. 700.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="./image2/img42.webp" alt="A Forest In Autumn">
+                <p>A Forest In Autumn<br><strong>from Rs. 700.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="paintings\Pastelstilllife\Pastelstilllife.html" style="text-decoration: none;">
+        <div class="gallery-item" id="imge4">
+            <img src="avif images\i4-removebg-preview.avif" alt="Pastel Still Life">
+            <p>Pastel Still Life<br><strong>from Rs. 650.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="image2/i41.webp" alt="Pastel Still Life">
+                <p>Pastel Still Life<br><strong>from Rs. 650.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="paintings\Daises_on_dark_green\Daises_on_dark_green.html" style="text-decoration: none;">
+        <div class="gallery-item" id="imge5">
+            <img src="avif images\i5-removebg-preview.avif" alt="Daisies On Dark Green Greass">
+            <p>Daisies On Dark Green Greass<br><strong>from Rs. 700.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="./image2/i51.webp" alt="Daisies On Dark Green Greass">
+                <p>Daisies On Dark Green Greass<br><strong>from Rs. 700.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="paintings\FellinlovePainting\fellinlove.html" style="text-decoration: none;">
+        <div class="gallery-item" id="imge6">
+            <img src="avif images\i6-removebg-preview (1).avif" alt="I Fell In Love With Fall Because of You">
+            <p>I Fell In Love With You<br><strong>from Rs. 850.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="./image2/i61.webp" alt="I Fell In Love With Fall Because of You">
+                <p>I Fell In Love With Fall Because of You<br><strong>from Rs. 850.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="paintings\Bananaleafs\Bananaleafs.html" style="text-decoration: none;">
+        <div class="gallery-item" id="imge7">
+            <img src="avif images\i7-removebg-preview.avif" alt="Banana Leafs">
+            <p>Banana Leafs<br><strong>from Rs. 700.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="./image2/i71.webp" alt="Banana Leafs">
+                <p>Banana Leafs<br><strong>from Rs. 700.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="paintings\Swans\Swans.html" style="text-decoration: none;">
+        <div class="gallery-item" id="imge8">
+            <img src="avif images\i8-removebg-preview.avif" alt="Swans">
+            <p>Swans<br><strong>from Rs. 680.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="./image2/i81.webp" alt="Swans">
+                <p>Swans<br><strong>from Rs. 680.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="paintings\product page\margarites.html" style="text-decoration: none;">
+        <div class="gallery-item" id="imge9">
+            <img src="avif images\i9-removebg-preview.avif" alt="Margarites">
+            <p>Margarites<br><strong>from Rs. 670.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="image2/i91.webp" alt="Margarites">
+                <p>Margarites<br><strong>from Rs. 670.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="paintings\normaandcats\norma.html" style="text-decoration: none;">
+        <div class="gallery-item" id="imge10">
+            <img src="avif images\i10-removebg-preview.avif" alt="Norma and Cats">
+            <p>Norma And Cats<br><strong>from Rs. 800.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="./image2/i101.webp" alt="Norma And Cats">
+                <p>Norma And Cats<br><strong>from Rs. 800.00</strong></p>
+            </div>
+        </div>
+        </a>
+
+
+
+    </div>
+    <div class="btn1">
+        <button onclick="window.location.href='index8.php';">View All</button>
+    </div>
+    <!--feature in-->
+    <div class="featured">
+        <h2 class="ft">FEATURED IN</h2>
+        <div class="sponsor">
+            <img src="editions_logo_list_section_only_in_version12-removebg-preview.png" alt="sponsor" width="1540px" height="300px" />   
+        </div>
+    </div>
+    <!--img normal-->
+    <div>
+        <img src="home-663226_1920.jpg" alt="" style="width: 100%; height: 100%;">
+
+    </div>
+    <div class="collection">
+        <h2 class="tree">NEW RELEASES</h2>
+    </div>
+    <div class="gallery">
+        <a href="cabinets\helios\helios.html" style="text-decoration: none;">
+        <div class="gallery-item" id="image1">
+            <img src="avif images\img8(1).avif" alt="Helios Quadro 3-Tier Book Shelf - Brown">
+            <p>Helios Quadro 3-Tier Book Shelf <br><strong>from Rs. 6,999.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="avif images\img8.avif" alt="Helios Quadro 3-Tier Book Shelf - Brown">
+                <p>Helios Quadro 3-Tier Book Shelf <br><strong>from Rs. 6,999.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="figurines\polyresin-oval-figurine\poly.html" style="text-decoration: none;">
+        <div class="gallery-item" id="image2">
+            <img src="avif images\image6 (2).avif" alt="POLYRESIN OWL FIGURINE">
+            <p>POLYRESIN OWL FIGURINE<br><strong>from Rs. 799.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="avif images\image6.avif" alt="POLYRESIN OWL FIGURINE">
+                <p>POLYRESIN OWL FIGURINE<br><strong>from Rs. 799.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="chair\elsa\elsa.html" style="text-decoration: none;">
+        <div class="gallery-item" id="image3">
+            <img src="avif images\1718646186689-file (5).avif" alt="Elsa 4-Tier Book Shelf - Brown">
+            <p> Modern Chair<br><strong>from Rs. 2,731.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="avif images\1718646186644-img 12.avif" alt="Elsa 4-Tier Book Shelf - Brown">
+                <p>Modern Chair<br><strong>from Rs. 2,731.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="mets\soft carpet\soft.html" style="text-decoration: none;">
+        <div class="gallery-item" id="imge15">
+            <img src="avif images\img15.avif" alt="SWEET HOMES Soft Carpet">
+            <p>SWEET HOMES Soft Carpet <br><strong>from Rs. 1,500.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="avif images\1718640661702-img15(1).avif" alt="SWEET HOMES Soft Carpet">
+                <p>SWEET HOMES Soft Carpet<br><strong>from Rs. 1,500.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="botanical\cosmos\cosmos.html" style="text-decoration: none;">
+        <div class="gallery-item" id="image5">
+            <img src="avif images\image8(1).avif" alt="Cosmos Roses and Grass in Pot">
+            <p>Cosmos Roses and Grass in Pot<br><strong>from Rs 699.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="avif images\image8.avif" alt="Cosmos Roses and Grass in Pot">
+                <p>Cosmos Roses and Grass in Pot<br><strong>from Rs 699.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="mets\teal rug\teal.html" style="text-decoration: none;">
+        <div class="gallery-item" id="image6">
+            <img src="avif images\WhatsApp Image 2024-06-22 at 15.avif" alt="Lst16 Gold Teal Area Rug ">
+            <p>Lst16 Gold Teal Area Rug <br><strong>from Rs. 1,300.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="avif images\img1(1).avif" alt="Lst16 Gold Teal Area Rug ">
+                <p>Lst16 Gold Teal Area Rug <br><strong>from Rs. 1,300.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="cabinets\helios-reynan\reynan.html" style="text-decoration: none;">
+        <div class="gallery-item" id="image7">
+            <img src="avif images\img7(1).avif" alt="Helios Reynan 5-Tier Book Shelf - White">
+            <p>Helios Reynan 5-Tier Book Shelf<br><strong>from Rs. 6,000.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="avif images\img7.avif" alt="Helios Reynan 5-Tier Book Shelf - White">
+                <p>Helios Reynan 5-Tier Book Shelf <br><strong>from Rs. 6,000.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="figurines\alpana\alpana.html" style="text-decoration: none;">
+        <div class="gallery-item" id="image8">
+            <img src="avif images\image13 (2).avif" alt="ALPANA POLYRESIN GANESHA FIGURINE">
+            <p>ALPANA POLYRESIN GANESHA<br><strong>from Rs. 1,399.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="avif images\image13.avif" alt="ALPANA POLYRESIN GANESHA FIGURINE">
+                <p>ALPANA POLYRESIN GANESHA<br><strong>from Rs. 1,399.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="chair\quadro\quadro.html" style="text-decoration: none;">
+        <div class="gallery-item" id="image9">
+            <img src="avif images\file (6).avif" alt="Butterfly chair">
+            <p>Butterfly chair<br><strong>from Rs. 6,231.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="avif images\img 8.avif" alt="Butterfly chair">
+                <p>Butterfly chair<br><strong>from Rs. 6,231.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="cabinets\helios-lewis\lewis.html" style="text-decoration: none;">
+        <div class="gallery-item" id="image10">
+            <img src="avif images\img10_1_-removebg-preview.avif" alt="Helios Lewis Mafra 5-Tier Corner Shelf - Brown">
+            <p>Helios Lewis Mafra 5-Tier Corner<br><strong>from Rs. 8,000.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="avif images\img10.avif" alt="Helios Lewis Mafra 5-Tier Corner Shelf - Brown">
+                <p>Helios Lewis Mafra 5-Tier Corner<br><strong>from Rs. 8,000.00</strong></p>
+            </div>
+        </div>
+        </a>
+    </div>
+    <div class="btn1">
+        <button onclick="window.location.href='index.html';">View All</button>
+    </div>
+    <div class="container">
+        <div class="text-section" style="margin-top: 100px;">
+            <h1>JUST LAUNCHED</h1>
+            <h2>E-GIFT CARD</h2>
+            <p>THE PERFECT PRESENT FOR ART ENTHUSIASTS</p>
+            <p>Discover the ultimate gifting solution with our brand-new E-Gift Card. <br>Treat your loved ones to the
+                joy
+                of choosing their favorite wall art prints from our extensive collection.</p>
+            <button onclick="window.location.href='e-gift card/index.html';">BUY GIFT CARD
+
+            </button>
+        </div>
+        <div class="image-section">
+            <img src="E-Gift-Card-_.webp" alt="Framed Art Prints">
+        </div>
+    </div>
+<div class="testimonial">
+    
+    <p class="asdf">
+        <h2>TESTIMONIALS</h2>
+    <div class="wrapper">
+        
+        <div class="box">
+            <div class="info">
+                    
+                    <div class="name">David and Lisa S.</div>
+                    <div class="city">San Francisco, CA</div>
+                    
+                </div>
+            <i class="fas fa-quote-left quote"></i>
+            <p>Choosing Space X Interiors for our home redesign was the best decision we made. Their team is incredibly talented and
+            attentive to our needs. They worked within our budget and timeline, delivering a stunning result that we enjoy every
+            day. We are grateful for their hard work and dedication.</p>
+            
+        </div>
+        <div class="box">
+            <div class="info">
+        
+                <div class="name">Laura K.</div>
+                <div class="city">Miami, FL</div>
+                
+            </div>
+            <i class="fas fa-quote-left quote"></i>
+            <p>I was amazed by Space X Interior's ability to completely transform my small apartment. They maximized the space with
+            clever storage solutions and beautiful design elements that make my home feel both spacious and stylish. I get
+            compliments from everyone who visits! Thank You, Space X Interiors...</p>
+            
+        </div>
+         <div class="box">
+            <div class="info">
+                    
+                    <div class="name">Sarah M.</div>
+                    <div class="city">New York, NY</div>
+                    
+                </div>
+            <i class="fas fa-quote-left quote"></i>
+            <p>Working with Space X Interiors was an absolute pleasure! From the initial consultation to the final reveal, their team
+            demonstrated professionalism, creativity, and attention to detail. Our living room has been transformed into a stylish
+            and cozy space that perfectly reflects our personality. Highly recommend their services!</p>
+            
+        </div>
+    </div>
+    </p>
+    </div>
+
+    <div class="collection">
+        <h2 class="tree">GALLERY WALL SETS</h2>
+    </div>
+    <div class="gallery">
+        <a href="wall gallery\GRACE-AND-GRANDEUR-1\GRACE-AND- GRANDEUR-1.html" style="text-decoration: none;">
+        <div class="gallery-item" id="img1">
+            <img src="./image1/img1.webp" alt="Grace And Grandeur Gallery Wall Set Of 7">
+            <p>GRACE AND GRANDEUR GALLERY WALL SET OF 7<br><strong>from Rs. 5,327.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="image1/img1(1).webp" alt="Grace And Grandeur Gallery Wall Set Of 7">
+                <p>GRACE AND GRANDEUR GALLERY WALL SET OF 7<br><strong>from Rs. 5,327.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="wall gallery\SERENE-BLUES-2\SERENE-BLUES-2.html" style="text-decoration: none;">
+        <div class="gallery-item" id="img2">
+            <img src="./image1/img2.webp" alt="Serene Blues Gallery Wall Set of 7">
+            <p>SERENE BLUES GALLERY WALL SET OF 7<br><strong>from Rs. 7,843.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="./image1/img2(1).webp" alt="Serene Blues Gallery Wall Set of 7">
+                <p>SERENE BLUES GALLERY WALL SET OF 7<br><strong>from Rs. 7,843.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="wall gallery\ECLECTIC-ART-FUSION-3\GRACE-AND- GRANDEUR-1.html" style="text-decoration: none;">
+        <div class="gallery-item" id="img3">
+            <img src="./image1/img3.webp" alt="verdant Retreat Gallery Wall Set of 7">
+            <p>ECLECTIC ART FUSION GALLERY WALL SET OF 9</Small><br><strong>from Rs. 9,000.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="image1/img3(1).webp" alt="verdant Retreat Gallery Wall Set of 7">
+                <p>ECLECTIC ART FUSION GALLERY WALL SET OF 9<br><strong>from Rs. 9,000.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="wall gallery\SHARON-4\SHARON-4.html" style="text-decoration: none;">
+        <div class="gallery-item" id="img4">
+            <img src="./image1/img4.webp" alt="Obsidian Bloom Botanical Gallery Wall Set of 6">
+            <p>SHARON'S GALLERY WALL SET OF 6<br><strong>from Rs. 11,000.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="./image1/img4(1).webp" alt="Obsidian Bloom Botanical Gallery Wall Set of 6">
+                <p>SHARON'S GALLERY WALL SET OF 6<br><strong>from Rs. 11,000.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="wall gallery\VERDANT-RETREAT-5\VERDANT-RETREAT-5.html" style="text-decoration: none;">
+        <div class="gallery-item" id="img5">
+            <img src="image1/img5.webp" alt="Autumn Gallery Wall Set of 4">
+            <p>VERDANT RETREAT GALLERY WALL SET OF 7<br><strong>from Rs. 3,265.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="image1/img5(1).webp" alt="Autumn Gallery Wall Set of 4">
+                <p>VERDANT RETREAT GALLERY WALL SET OF 7<br><strong>from Rs. 3,265.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="wall gallery\Radiant_harmony(6)\Radiant_harmony.html" style="text-decoration: none;">
+        <div class="gallery-item" id="img6">
+            <img src="image1/img6.webp" alt="Vibrant Greens Gallery Wall set of 8">
+            <p>RADIANT HARMONY GALLERY WALL SET OF 8<br><strong>from Rs. 10,000.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="image1/img6(1).webp" alt="Vibrant Greens Gallery Wall set of 8">
+                <p>RADIANT HARMONY GALLERY WALL SET OF 8<br><strong>from Rs. 10,000.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="wall gallery\Autumn_gallery(7)\Autumn_gallery.html" style="text-decoration: none;">
+        <div class="gallery-item" id="img7">
+            <img src="image1/img17.webp" alt="The Green Gallery wall Set Of 10">
+            <p>AUTUMN GALLERY WALL SET OF 4<br><strong>from Rs. 8,742.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="image1/img17(1).webp" alt="The Green Gallery wall Set Of 10">
+                <p>AUTUMN GALLERY WALL SET OF 4<br><strong>from Rs. 8,742.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="wall gallery\Vibrant_greens(8)\Vibrant_greens.html" style="text-decoration: none;">
+        <div class="gallery-item" id="img8">
+            <img src="image1/img18.webp" alt="Flourishing Foliage Botanical Gallery Wall Set of 6">
+            <p>VIBRANT GREENS GALLERY WALL SET OF 8<br><strong>from Rs. 7,623.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="image1/img18(1).webp" alt="Flourishing Foliage Botanical Gallery Wall Set of 6">
+                <p>VIBRANT GREENS GALLERY WALL SET OF 8<br><strong>from Rs. 7,623.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="wall gallery\Obsidian(9)\Obsidian.html" style="text-decoration: none;">
+        <div class="gallery-item" id="img9">
+            <img src="image1/img19.webp" alt="Vintage Treasures Gallery Wall Set Of 6">
+            <p>OBSIDIAN BLOOM BOTANICAL GALLERY WALL<br><strong>from Rs. 8,632.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="image1/img19(1).webp" alt="Vintage Treasures Gallery Wall Set Of 6">
+                <p>OBSIDIAN BLOOM BOTANICAL GALLERY WALL<br><strong>from Rs. 8,632.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="wall gallery\The_Green_Garden(10)\Autumn_gallery.html" style="text-decoration: none;">
+        <div class="gallery-item" id="img10">
+            <img src="image1/img20.webp" alt="Vintage Island Oasis Gallery Wall Set of 3">
+            <p>THE GREEN GARDEN GALLERY WALL SET OF 10<br><strong>from Rs. 7,642.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="image1/img20(1).webp" alt="Vintage Island Oasis Gallery Wall Set of 3">
+                <p>THE GREEN GARDEN GALLERY WALL SET OF 10<br><strong>from Rs. 7,642.00</strong></p>
+            </div>
+        </div>
+        </a>
+    </div>
+    <div class="btn1" style="margin-bottom: 10px;">
+        <button onclick="window.location.href='index12.php';">View All</button>
+    </div>
+    <div class="collection">
+        <h2 class="tree">ARTISTIC CUSHION COVERS</h2>
+    </div>
+
+    <div class="gallery">
+        <a href="cushion covers\even oris printend covers 1\evenosirisprintedcover.html" style="text-decoration: none;">
+        <div class="gallery-item" id="im1">
+            <img src="avif images\img_2-removebg-preview.avif" alt="Even Osiris printed cushion covers Set of 2">
+            <p>Even Osiris printed covers<br><strong>from Rs. 653.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="avif images\img 2.avif" alt="Even Osiris printed cushion covers Set of 2">
+                <p>Even Osiris printed covers<br><strong>from Rs. 653.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="cushion covers\pacific vera cushion covers 2\pacificveracushion.html" style="text-decoration: none;">
+        <div class="gallery-item" id="im2">
+            <img src="avif images\img_4-removebg-preview.avif" alt="Pacific vera cushion covers">
+            <p>Pacific vera cushion covers<br><strong>from Rs. 832.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="avif images\img 4.avif" alt="Pacific vera cushion covers">
+                <p>Pacific vera cushion covers<br><strong>from Rs. 832.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="cushion covers\everyday essential covers 3\everydayessentialcover.html" style="text-decoration: none;">
+        <div class="gallery-item" id="im3">
+            <img src="avif images\img_7-removebg-preview.avif" alt="Everyday Essentiol Covers set of 5">
+            <p>Everyday Essentiol Covers </Small><br><strong>from Rs. 673.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="avif images\img 7.avif" alt="Everyday Essentiol Covers set of 5">
+                <p>Everyday Essentiol Covers<br><strong>from Rs. 673.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="cushion covers\glance filled covers 4\glancefilledcovers.html" style="text-decoration: none;">
+        <div class="gallery-item" id="im4">
+            <img src="avif images\img_10-removebg-preview.avif" alt="Glance filled covers">
+            <p>Glance filled covers<br><strong>from Rs. 287.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="avif images\img 10.avif" alt="Glance filled covers">
+                <p>Glance filled covers<br><strong>from Rs. 287.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <a href="cushion covers\glance embroided covers 5\glanceembroided.html" style="text-decoration: none;">
+        <div class="gallery-item" id="im5">
+            <img src="avif images\img_11-removebg-preview.avif" alt="Glance Embroidered Filled cushion covers">
+            <p>Glance Embroidered covers<br><strong>from Rs. 523.00</strong></p>
+            <div class="chair-image" style="display: none;">
+                <img src="avif images\img 11.avif" alt="Glance Embroidered Filled cushion covers">
+                <p>Glance Embroidered covers<br><strong>from Rs. 523.00</strong></p>
+            </div>
+        </div>
+        </a>
+        <div class="btn2">
+            <button style="background-color: peru; color:white" onclick="window.location.href='index11.php';">View All</button>
+        </div>
+        <div class="features">
+            <div class="feature">
+                <img src="image\images-removebg-preview (1).png" alt="Premium Materials">
+                <h3>PREMIUM MATERIALS</h3>
+                <p>Art crafted from the finest Materials & Ink.</p>
+            </div>
+            <div class="feature">
+                <img src="truck-fast-solid.svg" alt="Fast Shipping">
+                <h3>FAST SHIPPING</h3>
+                <p>All Art is dispatched in 3-4 Working Days.</p>
+            </div>
+            <div class="feature">
+                <img src="wallet-solid.svg" alt="Secure Checkout">
+                <h3>SECURE CHECKOUT</h3>
+                <p>Shop with ease.</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            // Send product details in the server
+            $(".addItemBtn").click(function (e) {
+                e.preventDefault();
+                var $form = $(this).closest(".form-submit");
+                var pid = $form.find(".pid").val();
+                var pname = $form.find(".pname").val();
+                var pprice = $form.find(".pprice").val();
+                var pimage = $form.find(".pimage").val();
+                var pcode = $form.find(".pcode").val();
+
+                var pqty = $form.find(".pqty").val();
+
+                $.ajax({
+                    url: 'action.php',
+                    method: 'post',
+                    data: {
+                        pid: pid,
+                        pname: pname,
+                        pprice: pprice,
+                        pqty: pqty,
+                        pimage: pimage,
+                        pcode: pcode
+                    },
+                    success: function (response) {
+                        $("#message").html(response);
+                        window.scrollTo(0, 0);
+                        load_cart_item_number();
+                    }
+                });
+            });
+
+            // Load total no.of items added in the cart and display in the navbar
+            load_cart_item_number();
+
+            function load_cart_item_number() {
+                $.ajax({
+                    url: 'action.php',
+                    method: 'get',
+                    data: {
+                        cartItem: "cart_item"
+                    },
+                    success: function (response) {
+                        $("#cart-item").html(response);
+                    }
+                });
+            }
+        });
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+    <footer class="footer">
+        <div class="container">
+            <div class="row1">
+                <div class="footer-col">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="team/team.html">Meet the team</a></li>
+                        <li><a href="privacy.html">Privacy policy</a></li>
+                        <li><a href="shipping policy\policy.html">Shipping policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Get help</h3>
+                    <ul>
+                        <li><a href="FAQs/index.html">FAQ</a></li>
+                        <li><a href="refund policy\index (4).html">Refund policy</a></li>
+                        <li><a href="e-gift card/index.html">E-gift card</a></li>
+                        <li><a href="terms and services\index.html">Terms of services</a></li>
+                        <!-- <li><a href="#">Payment options</a></li> -->
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Online Shop</h3>
+                    <ul>
+                        <li><a href="index2.php">Multipurpose Cabinets</a></li>
+                        <li><a href="index5.php">Figurines</a></li>
+                        <li><a href="index6.php">Mirrors</a></li>
+                        <li><a href="index8.php">Paintings</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="Social-links" style="display: flex;">
+                        <a href="https://github.com/sxi-sxi"><i class="fab fa-github"
+                                style="width: 50px;margin-left: -5px;"></i></a>
+                        <a href="https://x.com/SpaceXInte33699"><i class="fab fa-twitter"
+                                style="width: 50px;margin-left: -5px;"></i></a>
+                        <a href="https://www.instagram.com/space.x_interiors/?next=%2F"><i class="fab fa-instagram"
+                                style="width: 50px;margin-left: -5px;"></i></a>
+                        <a href="https://www.linkedin.com/in/hackatoons-interiors-241041315/"><i class="fab fa-linkedin-in"
+                                style="width: 50px;margin-left: -5px;"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <p>&copy; 2024 Space X Interior. All rights reserved. </p>
+    </footer>
+
+
+</body>
+
+</html>
